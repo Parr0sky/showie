@@ -12,13 +12,13 @@ namespace showie
         public MainPage()
         {
             InitializeComponent();
-            boton.Clicked += Button_Cliecked;
+            //boton.Clicked += Button_Cliecked;
 
         }
         private async void Button_Cliecked(object sender, EventArgs e)
         {
-            string name = entrada.Text;
-            await DisplayAlert("Hi there", $"Hello {name}", "OK");
+           // string name = entrada.Text;
+            //await DisplayAlert("Hi there", $"Hello {name}", "OK");
         }
     }
 }
