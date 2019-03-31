@@ -12,6 +12,9 @@
         <Label Text="Segundo Label"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand"/>
+        <Entry x:Name="entrada"/>
+        <Button x:Name="boton" Text="Submit"/>
+
     </StackLayout>
 
 </ContentPage>
